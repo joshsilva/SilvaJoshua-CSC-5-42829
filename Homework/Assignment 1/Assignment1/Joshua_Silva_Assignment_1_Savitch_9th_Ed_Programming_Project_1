@@ -1,0 +1,42 @@
+/* 
+ * File:   Programming Project 1
+ * Author: Joshua Silva
+ *
+ * Created on March 4, 2016, 5:00 PM
+ */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int Dgt_1, Dgt_2, Sum, Prdct;
+    
+    cout << "Press enter after entering a number.\n";
+    cout << "Enter the first digit.\n";
+           
+    cin >> Dgt_1;
+    
+    cout << "Enter the second digit\n";
+    cin >> Dgt_2;
+    Sum=Dgt_1+Dgt_2;
+    cout <<"If you add ";
+    cout << Dgt_1;
+    cout <<" and ";
+    cout << Dgt_2;
+    cout << " then you get\n";
+    cout << Sum;
+    
+    Prdct=Dgt_1*Dgt_2;
+    cout <<".\n";
+    cout <<"Also if you multiply ";
+    cout << Dgt_1;
+    cout << " and ";
+    cout << Dgt_2;
+    cout <<" then you get\n";
+    cout << Prdct;
+
+    return 0;
+}
+
