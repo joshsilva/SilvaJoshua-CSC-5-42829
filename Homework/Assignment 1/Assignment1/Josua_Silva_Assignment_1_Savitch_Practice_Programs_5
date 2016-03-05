@@ -1,0 +1,36 @@
+/* 
+ * File:   Practice Problems 5
+ * Author: Joshua Silva
+ *
+ * Created on March 4, 2016, 4:09 PM
+ */
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    
+        int w_ft_lng, l_ft_lng, t_ft_lng;
+    
+    cout << "Press the return after entering a number.\n";
+    cout << "Enter the width of fence multiplied by two:\n";
+            
+    cin >> w_ft_lng;
+    cout << "Enter the length of fence multiplied by two:\n";
+    
+    cin >>l_ft_lng;
+    t_ft_lng=w_ft_lng+l_ft_lng;
+    cout <<"If the width of the fence is ";
+    cout <<w_ft_lng;
+    cout <<"and ";
+    cout << l_ft_lng;
+    cout <<" being the length of the fence is, then\n";
+    cout <<"the fence is ";
+    cout << t_ft_lng;
+    cout << " feet in total\n";
+
+    return 0;
+}
+
